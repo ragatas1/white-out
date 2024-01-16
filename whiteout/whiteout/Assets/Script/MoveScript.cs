@@ -6,8 +6,8 @@ public class MoveScript : MonoBehaviour
 {
     public Transform orientation;
     public float moveSpeed;
-    float horizontal;
-    float vertical;
+    [HideInInspector] public float horizontal;
+    [HideInInspector] public float vertical;
     Vector3 moveDirection;
     Rigidbody rb;
     // Start is called before the first frame update
@@ -23,5 +23,6 @@ public class MoveScript : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
         moveDirection = orientation.forward * vertical + orientation.right * horizontal;
         rb.AddForce(moveDirection.normalized*moveSpeed,ForceMode.Force);
+        
     }
 }

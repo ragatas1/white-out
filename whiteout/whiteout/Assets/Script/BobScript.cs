@@ -5,8 +5,10 @@ using UnityEngine;
 public class BobScript : MonoBehaviour
 {
     bool up;
-    public float bobspeed;
-    public float bobtimer;
+    public float bobIntensitet;
+    public float bobFrekvens;
+    public MoveScript moveScript;
+    float bobtimer;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,18 +18,29 @@ public class BobScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (up)
+        if (moveScript.horizontal != 0 || moveScript.vertical != 0)
         {
-            transform.position = new Vector3(transform.position.x,transform.position.y+bobspeed*Time.deltaTime,transform.position.z);
-        }
-        else
-        {
-            transform.position = new Vector3(transform.position.x, transform.position.y - bobspeed * Time.deltaTime, transform.position.z);
-        }
-        bobtimer = bobtimer + 1 * Time.deltaTime;
-        if (bobtimer < 1)
-        {
-
+            if (up)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y + bobIntensitet * Time.deltaTime, transform.position.z);
+            }
+            else
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y - bobIntensitet * Time.deltaTime, transform.position.z);
+            }
+            bobtimer = bobtimer + 1 * Time.deltaTime;
+            if (bobtimer > bobFrekvens)
+            {
+                if (up)
+                {
+                    up = false;
+                }
+                else
+                {
+                    up = true;
+                }
+                bobtimer = 0;
+            }
         }
     }
 }

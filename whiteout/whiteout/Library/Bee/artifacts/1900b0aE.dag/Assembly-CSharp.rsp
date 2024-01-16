@@ -356,6 +356,8 @@
 "Assets/Script/kamera.cs"
 "Assets/Script/KameraHoldeScript.cs"
 "Assets/Script/MoveScript.cs"
+"Assets/Script/spawne/KameraScript.cs"
+"Assets/Script/spawne/stjernescript.cs"
 -langversion:9.0
 
 /deterministic

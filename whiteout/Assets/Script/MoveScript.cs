@@ -10,6 +10,9 @@ public class MoveScript : MonoBehaviour
     [HideInInspector] public float vertical;
     Vector3 moveDirection;
     Rigidbody rb;
+
+    public Timer timer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,23 @@ public class MoveScript : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
         moveDirection = orientation.forward * vertical + orientation.right * horizontal;
         rb.AddForce(moveDirection.normalized*moveSpeed,ForceMode.Force);
+
+        if (rb.velocity == Vector3.zero) 
+        {
+            Debug.Log("Stå stille");
+            StartCoroutine(notMoving());
+        }
+        else if (rb.velocity.magnitude >= 0.01) 
+        {
+            StopAllCoroutines();
+            timer.isMoving = true;
+        }
         
+    }
+
+    IEnumerator notMoving()
+    {
+        yield return new WaitForSeconds(5);
+        timer.isMoving = false;
     }
 }

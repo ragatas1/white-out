@@ -19,9 +19,9 @@ public class DuFantPappa : MonoBehaviour
 
     IEnumerator gameOver()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2);
         lyd.Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         SceneManager.LoadScene("GameOver");
     }
 }

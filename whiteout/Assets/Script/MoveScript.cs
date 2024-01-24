@@ -67,7 +67,6 @@ public class MoveScript : MonoBehaviour
 
         if (rb.velocity == Vector3.zero) 
         {
-            Debug.Log("Stå stille");
             StartCoroutine(notMoving());
         }
         else if (rb.velocity.magnitude >= 0.01) 

@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class SpillLydPåStartScript : MonoBehaviour
 {
     public AudioSource lyd;
+    public AudioSource pappa;
+    public AudioSource dor;
 
 
     // Start is called before the first frame update
@@ -18,6 +20,10 @@ public class SpillLydPåStartScript : MonoBehaviour
     IEnumerator byttCene()
     {
         yield return new WaitForSeconds(34);
+        pappa.Play();
+        yield return new WaitForSeconds(1);
+        dor.Play();
+        yield return new WaitForSeconds(3.5f);
         SceneManager.LoadScene("Emilie");
     }
 }

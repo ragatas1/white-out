@@ -5059,6 +5059,148 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &56046181
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.5159855
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 72.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+--- !u!1 &124899236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 602125405}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124899237}
+  - component: {fileID: 124899239}
+  - component: {fileID: 124899238}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124899237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 602125405}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124899236}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 113.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &124899238
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 602125405}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124899236}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &124899239
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 602125405}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124899236}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
 --- !u!1 &157823113
 GameObject:
   m_ObjectHideFlags: 0
@@ -5151,6 +5293,148 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &242381160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1075281587}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 242381161}
+  - component: {fileID: 242381163}
+  - component: {fileID: 242381162}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &242381161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1075281587}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242381160}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 58.39}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &242381162
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1075281587}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242381160}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &242381163
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1075281587}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242381160}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
+--- !u!1001 &278076891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
 --- !u!1 &386168075
 GameObject:
   m_ObjectHideFlags: 0
@@ -9979,6 +10263,332 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1095334805}
   m_LocalEulerAnglesHint: {x: -1.004, y: 0, z: 0}
+--- !u!1001 &421357825
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 127.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+--- !u!1001 &602125405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 113.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+--- !u!1 &665791418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 421357825}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 665791419}
+  - component: {fileID: 665791421}
+  - component: {fileID: 665791420}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &665791419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 421357825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665791418}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 127.74}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &665791420
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 421357825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665791418}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &665791421
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 421357825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665791418}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
+--- !u!1 &732463518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1004274194}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 732463519}
+  - component: {fileID: 732463521}
+  - component: {fileID: 732463520}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &732463519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1004274194}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732463518}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 30.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &732463520
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1004274194}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732463518}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &732463521
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1004274194}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732463518}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
+--- !u!1 &806189672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806189673}
+  m_Layer: 0
+  m_Name: Roads
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806189673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806189672}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 922194515}
+  - {fileID: 1867718253}
+  - {fileID: 124899237}
+  - {fileID: 665791419}
+  - {fileID: 1016904745}
+  - {fileID: 1406628798}
+  - {fileID: 1833547510}
+  - {fileID: 1890414778}
+  - {fileID: 732463519}
+  - {fileID: 991993866}
+  - {fileID: 242381161}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &867349233
 GameObject:
   m_ObjectHideFlags: 0
@@ -10071,6 +10681,375 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &922194514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1118455389}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 922194515}
+  - component: {fileID: 922194517}
+  - component: {fileID: 922194516}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &922194515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1118455389}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922194514}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 86.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &922194516
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1118455389}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922194514}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &922194517
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1118455389}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922194514}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
+--- !u!1 &991993865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1715854279}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 991993866}
+  - component: {fileID: 991993868}
+  - component: {fileID: 991993867}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &991993866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1715854279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991993865}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 44.78}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &991993867
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1715854279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991993865}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &991993868
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1715854279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991993865}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
+--- !u!1001 &1004274194
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+--- !u!1 &1016904744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 278076891}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1016904745}
+  - component: {fileID: 1016904747}
+  - component: {fileID: 1016904746}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1016904745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 278076891}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016904744}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 142}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1016904746
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 278076891}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016904744}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1016904747
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 278076891}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016904744}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
+--- !u!1001 &1075281587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 58.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
 --- !u!4 &1095334805 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6155828864618721500, guid: a64eb9d4cd68fb347ab71ce5d81bcf19, type: 3}
@@ -10123,6 +11102,262 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1118455389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 86.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+--- !u!1001 &1247799048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 99.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+--- !u!1001 &1266965035
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 128.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+--- !u!1 &1406628797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1266965035}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406628798}
+  - component: {fileID: 1406628800}
+  - component: {fileID: 1406628799}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1406628798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1266965035}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406628797}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 128.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1406628799
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1266965035}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406628797}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1406628800
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1266965035}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406628797}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
 --- !u!1 &1485426227
 GameObject:
   m_ObjectHideFlags: 0
@@ -10883,6 +12118,318 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7826103743755336627, guid: a64eb9d4cd68fb347ab71ce5d81bcf19, type: 3}
   m_PrefabInstance: {fileID: 1693486180}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1715854279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+--- !u!1 &1833547509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 56046181}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1833547510}
+  - component: {fileID: 1833547512}
+  - component: {fileID: 1833547511}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1833547510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 56046181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833547509}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.5159855, z: 72.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1833547511
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 56046181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833547509}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1833547512
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 56046181}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833547509}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
+--- !u!1 &1867718252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1247799048}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867718253}
+  - component: {fileID: 1867718255}
+  - component: {fileID: 1867718254}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1867718253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1247799048}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867718252}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 99.93}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1867718254
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1247799048}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867718252}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1867718255
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 1247799048}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867718252}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
+--- !u!1 &1890414777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 2018392377}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1890414778}
+  - component: {fileID: 1890414780}
+  - component: {fileID: 1890414779}
+  m_Layer: 0
+  m_Name: Straight 4 Lane Bridge (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1890414778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 2018392377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890414777}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -24.25, y: 7.52, z: 17.29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 806189673}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1890414779
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8493685641461307503, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 2018392377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890414777}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1d3b3f679be0cb94dbd81a22b9fd1d40, type: 2}
+  - {fileID: 2100000, guid: 052644c3ba61e3846a3457f61a32021c, type: 2}
+  - {fileID: 2100000, guid: cd76238d8b4eba3428d1ceffd767e4e8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1890414780
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5925423601501334693, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+  m_PrefabInstance: {fileID: 2018392377}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890414777}
+  m_Mesh: {fileID: -462981019419857548, guid: 9d4865a092cbc164e913ef6bdb08bfe3, type: 3}
 --- !u!1 &2009113500
 GameObject:
   m_ObjectHideFlags: 0
@@ -10951,6 +12498,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2018392377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 806189673}
+    m_Modifications:
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319632293847163648, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989208059707439546, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
+      propertyPath: m_Name
+      value: Straight 4 Lane Bridge (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f7f9d660bbb09e84ab158d38eb695ecc, type: 3}
 --- !u!1 &2071992440
 GameObject:
   m_ObjectHideFlags: 0
@@ -11058,3 +12662,4 @@ SceneRoots:
   - {fileID: 1102354972}
   - {fileID: 1543904699}
   - {fileID: 867349236}
+  - {fileID: 806189673}

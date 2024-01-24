@@ -80,6 +80,11 @@ public class MoveScript : MonoBehaviour
         {
             this.rb.useGravity = false;
         }
+        else
+        {
+            this.rb.useGravity = true;
+            rb.AddForce(Physics.gravity * rb.mass * 2);
+        }
     }
 
     IEnumerator notMoving()

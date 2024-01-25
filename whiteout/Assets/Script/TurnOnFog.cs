@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TurnOnFog : MonoBehaviour
 {
@@ -8,5 +9,13 @@ public class TurnOnFog : MonoBehaviour
     void Start()
     {
         RenderSettings.fog = true;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            SceneManager.LoadScene("start");
+        }
     }
 }

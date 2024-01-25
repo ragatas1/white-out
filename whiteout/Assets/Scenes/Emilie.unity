@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5000002, g: 0.5000002, b: 0.5000002, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1759,7 +1759,7 @@ ParticleSystem:
     enabled: 1
     x:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -1812,9 +1812,9 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: -0.5
-      minScalar: 0
+      minScalar: -0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1865,9 +1865,9 @@ ParticleSystem:
         m_RotationOrder: 4
     z:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: -0.2
-      minScalar: 0.2
+      minMaxState: 3
+      scalar: -0.5
+      minScalar: -0.8
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -3884,7 +3884,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 4
     type: 0
     collisionMode: 0
@@ -5112,7 +5112,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -5138,13 +5138,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28407678}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.60642326, z: -0, w: 0.7951421}
   m_LocalPosition: {x: -20.692595, y: 12.358431, z: 32.800804}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 74.663, z: 0}
 --- !u!82 &28407683
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5157,7 +5157,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1c6c92db7acadaf49a02444588ff993a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.564
+  m_Volume: 0.425
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7949,9 +7949,9 @@ ParticleSystem:
     enabled: 1
     x:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
-      minScalar: 0.2
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -8002,9 +8002,9 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: -0.5
-      minScalar: -0.1
+      minScalar: -0.5
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -8055,9 +8055,9 @@ ParticleSystem:
         m_RotationOrder: 4
     z:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: -0.2
-      minScalar: 0.2
+      minMaxState: 3
+      scalar: -0.5
+      minScalar: -0.8
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -10074,7 +10074,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 4
     type: 0
     collisionMode: 0
@@ -12072,9 +12072,9 @@ Light:
   m_GameObject: {fileID: 2071992440}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 1
+  m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.7735849, g: 0.74715203, b: 0.6750623, a: 1}
   m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30

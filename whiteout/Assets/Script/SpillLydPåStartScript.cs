@@ -17,6 +17,13 @@ public class SpillLydPåStartScript : MonoBehaviour
         StartCoroutine(byttCene());
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyUp(KeyCode.R)) {
+            SceneManager.LoadScene("Emilie");
+        } 
+    }
+
     IEnumerator byttCene()
     {
         yield return new WaitForSeconds(34);

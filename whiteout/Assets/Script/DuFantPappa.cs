@@ -5,28 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class DuFantPappa : MonoBehaviour
 {
+    
     public AudioSource lyd;
-    public bool duSÂPappa = false;
+    public PappaFantDeg pf;
 
     private void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Space))
+        if(Input.GetKeyUp(KeyCode.Space) && pf.duSÂPappa == true)
         {
-            lyd.Play();
-        }
-    }
-    private void OnTriggerEnter(Collider target)
-    {
-        if (target.tag == "Pappa" && duSÂPappa == true)
-        {
-            Debug.Log("Collided");
             StartCoroutine(gameOver());
         }
     }
 
+    
+
     IEnumerator gameOver()
     {
-        yield return new WaitForSeconds(2);
-        SceneManager.LoadScene("GameOver");
+        yield return new WaitForSeconds(1);
+        lyd.Play();
+        yield return new WaitForSeconds(1);
+        //SceneManager.LoadScene("GameOver");
     }
+    
 }

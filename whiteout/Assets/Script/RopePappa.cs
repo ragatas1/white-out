@@ -6,7 +6,10 @@ public class RopePappa : MonoBehaviour
 {
     public AudioClip[] sounds;
     private AudioSource source;
-    bool kanSnakke = true;
+    public bool kanSnakke = true;
+    public bool pappaSnakke = false;
+
+    public PappaScript pappaScript;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +24,8 @@ public class RopePappa : MonoBehaviour
         {
             StartCoroutine(lyd());
         }
-    }
+
+    }   
     IEnumerator lyd()
     {
         source.clip = sounds[Random.Range(0, sounds.Length)];

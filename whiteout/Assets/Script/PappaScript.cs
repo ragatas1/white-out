@@ -8,7 +8,8 @@ public class PappaScript : MonoBehaviour
 {
     public AudioClip[] sounds;
     private AudioSource source;
-    bool kanSnakke = true;
+    public RopePappa ropePappa;
+    public PappaFantDeg pf;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class PappaScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && kanSnakke == true) 
+        if (Input.GetKeyDown(KeyCode.Space) && ropePappa.pappaSnakke == true && pf.duSÂPappa == false) 
         {
             StartCoroutine(lyd());
         }
@@ -29,21 +30,22 @@ public class PappaScript : MonoBehaviour
 
     IEnumerator lyd()
     {
-
-        yield return new WaitForSeconds(2);
+        ropePappa.pappaSnakke = false;
+        yield return new WaitForSeconds(1);
         source.clip = sounds[Random.Range (0,sounds.Length)];
         source.PlayOneShot(source.clip);
-        kanSnakke = false;
         yield return new WaitForSeconds(5);
-        kanSnakke = true;
+        ropePappa.pappaSnakke = true;
     }
 
     IEnumerator vent()
     {
-        kanSnakke = false;
-        yield return new WaitForSeconds(4);
+        ropePappa.pappaSnakke = false;
+        ropePappa.kanSnakke = false;
+        yield return new WaitForSeconds(3);
         source.PlayOneShot(source.clip);
         yield return new WaitForSeconds(5);
-        kanSnakke = true;
+        ropePappa.kanSnakke = true;
+        ropePappa.pappaSnakke = true;
     }
 }

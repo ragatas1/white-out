@@ -17,7 +17,7 @@ public class DuFantPappa : MonoBehaviour
     }
     private void OnTriggerEnter(Collider target)
     {
-        if (target.tag == "Player" && duSÂPappa == true)
+        if (target.tag == "Pappa" && duSÂPappa == true)
         {
             Debug.Log("Collided");
             StartCoroutine(gameOver());

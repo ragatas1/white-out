@@ -21,10 +21,11 @@ public class DuFantPappa : MonoBehaviour
 
     IEnumerator gameOver()
     {
+        pf.duSÂPappa = false;
         yield return new WaitForSeconds(1);
         lyd.Play();
         yield return new WaitForSeconds(1);
-        //SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene("GameOver");
     }
     
 }

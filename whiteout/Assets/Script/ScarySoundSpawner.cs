@@ -8,7 +8,7 @@ public class ScarySoundSpawner : MonoBehaviour
     public AudioClip[] sounds;
     private AudioSource source;
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         source = GetComponent<AudioSource>();
         StartCoroutine(spillLyd());

@@ -9,10 +9,12 @@ public class BobScript : MonoBehaviour
     public float bobFrekvens;
     public MoveScript moveScript;
     float bobtimer;
+    public AudioClip[] sounds;
+    private AudioSource source;
     // Start is called before the first frame update
     void Start()
     {
-        
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -40,6 +42,8 @@ public class BobScript : MonoBehaviour
                     up = true;
                 }
                 bobtimer = 0;
+                source.clip = sounds[Random.Range(0, sounds.Length)];
+                source.PlayOneShot(source.clip);
             }
         }
     }

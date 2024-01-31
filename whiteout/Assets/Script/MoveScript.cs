@@ -25,6 +25,7 @@ public class MoveScript : MonoBehaviour
     public Timer timer;
 
     public MovementState state;
+    public GroundCheckScript checkScript;
 
     public enum MovementState
     {
@@ -67,40 +68,27 @@ public class MoveScript : MonoBehaviour
         vertical = Input.GetAxisRaw("Vertical");
         moveDirection = orientation.forward * vertical + orientation.right * horizontal;
         rb.AddForce(moveDirection.normalized * moveSpeed, ForceMode.Force);
+
+
+       /* 
+        if (IsGrounded())
+        {
+            this.rb.useGravity = false;
+            grounded = true;
+        }
+        else
+        {
+            this.rb.useGravity = true;
+            rb.AddForce(Physics.gravity * rb.mass * 2);
+            grounded = false;
+        }
+       */
     }
-
-    //    if (rb.velocity == Vector3.zero) 
-    //    {
-    //        StartCoroutine(notMoving());
-    //    }
-    //    else if (rb.velocity.magnitude >= 0.01) 
-    //    {
-    //        StopAllCoroutines();
-    //        timer.isMoving = true;
-    //    }
-        
-    //    if (IsGrounded())
-    //    {
-    //        this.rb.useGravity = false;
-    //        grounded = true;
-    //    }
-    //    else
-    //    {
-    //        this.rb.useGravity = true;
-    //        rb.AddForce(Physics.gravity * rb.mass * 2);
-    //        grounded = false;
-    //    }
-    //}
-
-    //IEnumerator notMoving()
-    //{
-    //    yield return new WaitForSeconds(5);
-    //    timer.isMoving = false;
-    //}
     
-    //bool IsGrounded()
-    //{
-    //    return Physics.CheckSphere(groundCheck.position, 0.1f, ground);
-    //}
+    bool IsGrounded()
+    {
+        return Physics.CheckSphere(groundCheck.position, 0.1f, ground);
+    }
+    
     
 }

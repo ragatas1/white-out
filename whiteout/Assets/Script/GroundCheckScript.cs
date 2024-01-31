@@ -6,17 +6,29 @@ public class GroundCheckScript : MonoBehaviour
 {
     public bool grounded;
     public Rigidbody rb;
+    public Transform spiller;
+    public float tyngdekraft;
 
     private void Update()
     {
         rb.useGravity = !grounded;
+        if (!grounded) 
+        {
+             rb.velocity = new Vector3(rb.velocity.x,tyngdekraft,rb.velocity.z);
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
-        grounded = true;
+        if ( other.gameObject.tag == "bakke")
+        {
+            grounded = true;
+        }
     }
     private void OnTriggerExit(Collider other)
     {
-        grounded = false;
+        if (other.gameObject.tag == "bakke")
+        {
+            grounded = false;
+        }
     }
 }

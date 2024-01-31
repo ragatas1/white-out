@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class MoveScript : MonoBehaviour
 {
+    public bool grounded;
     public LayerMask ground;
     public Transform groundCheck;
     public Transform orientation;
@@ -80,11 +81,13 @@ public class MoveScript : MonoBehaviour
         if (IsGrounded())
         {
             this.rb.useGravity = false;
+            grounded = true;
         }
         else
         {
             this.rb.useGravity = true;
             rb.AddForce(Physics.gravity * rb.mass * 2);
+            grounded = false;
         }
     }
 

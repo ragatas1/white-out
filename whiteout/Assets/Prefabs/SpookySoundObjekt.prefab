@@ -47,10 +47,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - {fileID: 8300000, guid: 82f8be454e36ebd439c39a8f163a225a, type: 3}
-  - {fileID: 8300000, guid: 74e57af13229d014b8ee42b21180a439, type: 3}
-  - {fileID: 8300000, guid: b4d62e1ab9c23724c881d9865d09d5ba, type: 3}
-  - {fileID: 8300000, guid: f51e14b50f58c3d47aee406abc63c0a8, type: 3}
-  - {fileID: 8300000, guid: 23100d483e7ec94469be2117a82953cf, type: 3}
+  - {fileID: 8300000, guid: 7292d96f34c34b2419f9e0f58a5071f9, type: 3}
+  - {fileID: 8300000, guid: 647ad0edae3cffd4e9e64f5c6ba0e257, type: 3}
+  - {fileID: 8300000, guid: b54dc6acb0869174fbd6e86335a1e620, type: 3}
+  - {fileID: 8300000, guid: 2be66d1f4de1a7044a54948abfd6b7b1, type: 3}
 --- !u!82 &2211052153204603062
 AudioSource:
   m_ObjectHideFlags: 0

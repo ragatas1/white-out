@@ -12798,8 +12798,8 @@ MonoBehaviour:
   spillerrotasjon: {fileID: 1786883598}
   rotera: {fileID: 839008151}
   spiller: {fileID: 259424585}
-  maksTid: 30
-  minTid: 10
+  maksTid: 5
+  minTid: 5
   nei: 0
 --- !u!65 &2084161956
 BoxCollider:

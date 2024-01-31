@@ -9,20 +9,20 @@ public class TypeWriter : MonoBehaviour
 {
     public GameObject dot;
     string TextToType = "Hva faen var det?";
-    string IngenText = "";
+    string IngenText = "Vent her jeg kommer snart tilbake.";
 
-   public TMP_Text subtitleTextMesh;
+    public TMP_Text subtitleTextMesh;
+    public TMP_Text text;
 
     // Update is called once per frame
     void Start()
     {
- 
         StartCoroutine(PeterSnakker());
     }
 
     IEnumerator PeterSnakker()
     {
-        //yield return new WaitForSeconds(9);
+        yield return new WaitForSeconds(9);
         dot.SetActive(true);
 
         subtitleTextMesh.text = string.Empty;
@@ -32,25 +32,25 @@ public class TypeWriter : MonoBehaviour
             subtitleTextMesh.text += TextToType[i];
             yield return new WaitForSeconds(0.05f);
         }
-        yield return null;
-
+        
+        
         yield return new WaitForSeconds(4);
 
+        dot.SetActive(false);
+        Destroy(subtitleTextMesh);
 
-        for (int i = 0; i < TextToType.Length; i++)
-        {
-            TextToType.Remove(i);
-            i--;
-        }
-
-
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
+        dot.SetActive(true);
 
         for (int i = 0; i < IngenText.Length; i++)
         {
-            subtitleTextMesh.text += IngenText[i];
+            text.text += IngenText[i];
             yield return new WaitForSeconds(0.05f);
         }
         yield return null;
+
+        yield return new WaitForSeconds(2);
+        dot.SetActive(false);
+        Destroy(text);
     }
 }

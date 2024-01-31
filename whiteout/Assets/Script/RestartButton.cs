@@ -13,6 +13,6 @@ public class RestartButton : MonoBehaviour
     }
     public void restartGame()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Start2.0");
     }
 }

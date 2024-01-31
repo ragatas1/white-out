@@ -25,7 +25,7 @@ public class TypeWriter : MonoBehaviour
 
     IEnumerator PeterSnakker()
     {
-        yield return new WaitForSeconds(9.2f);
+        yield return new WaitForSeconds(9.3f);
         dot.SetActive(true);
 
         subtitleTextMesh.text = string.Empty;
@@ -42,7 +42,7 @@ public class TypeWriter : MonoBehaviour
         dot.SetActive(false);
         Destroy(subtitleTextMesh);
 
-        yield return new WaitForSeconds(2.8f);
+        yield return new WaitForSeconds(2.6f);
         dot.SetActive(true);
 
         for (int i = 0; i < IngenText.Length; i++)

@@ -67,7 +67,7 @@ public class MoveScript : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
         moveDirection = orientation.forward * vertical + orientation.right * horizontal;
-        rb.AddForce(moveDirection.normalized * moveSpeed, ForceMode.Force);
+        rb.AddForce(moveDirection.normalized * moveSpeed*Time.deltaTime, ForceMode.Force);
 
 
        /* 

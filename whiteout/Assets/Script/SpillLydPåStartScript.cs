@@ -20,7 +20,7 @@ public class SpillLydPåStartScript : MonoBehaviour
     private void Update()
     {
         if(Input.GetKeyUp(KeyCode.R)) {
-            SceneManager.LoadScene("Emilie");
+            SceneManager.LoadScene("mindre sloppy scene");
         } 
     }
 

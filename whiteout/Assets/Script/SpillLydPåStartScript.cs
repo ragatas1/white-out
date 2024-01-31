@@ -30,7 +30,6 @@ public class SpillLydPåStartScript : MonoBehaviour
         pappa.Play();
         yield return new WaitForSeconds(1);
         dor.Play();
-        yield return new WaitForSeconds(3.5f);
-        SceneManager.LoadScene("Erik");
+
     }
 }

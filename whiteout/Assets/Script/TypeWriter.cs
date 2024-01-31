@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TypeWriter : MonoBehaviour
 {
     public GameObject dot;
+    public GameObject Image;
+
     string TextToType = "Hva faen var det?";
     string IngenText = "Vent her jeg kommer snart tilbake.";
 
@@ -22,7 +25,7 @@ public class TypeWriter : MonoBehaviour
 
     IEnumerator PeterSnakker()
     {
-        yield return new WaitForSeconds(9);
+        yield return new WaitForSeconds(9.2f);
         dot.SetActive(true);
 
         subtitleTextMesh.text = string.Empty;
@@ -34,12 +37,12 @@ public class TypeWriter : MonoBehaviour
         }
         
         
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(3.8f);
 
         dot.SetActive(false);
         Destroy(subtitleTextMesh);
 
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(2.8f);
         dot.SetActive(true);
 
         for (int i = 0; i < IngenText.Length; i++)
@@ -49,8 +52,12 @@ public class TypeWriter : MonoBehaviour
         }
         yield return null;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         dot.SetActive(false);
+        Image.SetActive(true);
         Destroy(text);
+        yield return new WaitForSeconds(17);
+        SceneManager.LoadScene("Erik");
+
     }
 }

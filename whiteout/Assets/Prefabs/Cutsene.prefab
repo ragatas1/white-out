@@ -123,4 +123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: -10
+  Deceleration: -9
   deadZone: -117.4
+  Event: 15

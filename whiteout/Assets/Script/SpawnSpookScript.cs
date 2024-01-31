@@ -5,12 +5,15 @@ using UnityEngine;
 public class SpawnSpookScript : MonoBehaviour
 {
     public GameObject spooks;
+    public Transform spillerrotasjon;
     public Transform rotera;
     public Transform spiller;
     public float maksTid;
     public float minTid;
     float tid;
-    public bool stfu;
+    bool stfu;
+    bool pingPong;
+    public bool nei;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +24,16 @@ public class SpawnSpookScript : MonoBehaviour
     {
         if (!stfu)
         {
-            rotera.position = spiller.position;
-            rotera.Rotate(0, 1, 0);
+            spillerrotasjon.position = spiller.position;
+            spillerrotasjon.rotation = spiller.rotation;
+            if (pingPong )
+            {
+                rotera.Rotate(0, 0.3f, 0);
+            }
+            else
+            {
+                rotera.Rotate(0, -0.3f, 0);
+            }
         }
     }
     IEnumerator skummel()
@@ -35,4 +46,16 @@ public class SpawnSpookScript : MonoBehaviour
         yield return new WaitForSeconds(5);
         stfu = false;
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (pingPong)
+        {
+            pingPong = false;
+        }
+        else
+        {
+            pingPong = true;
+        }
+    }
+
 }

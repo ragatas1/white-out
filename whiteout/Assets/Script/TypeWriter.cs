@@ -57,7 +57,7 @@ public class TypeWriter : MonoBehaviour
         Image.SetActive(true);
         Destroy(text);
         yield return new WaitForSeconds(17);
-        SceneManager.LoadScene("Erik");
+        SceneManager.LoadScene("Emilie");
 
     }
 }

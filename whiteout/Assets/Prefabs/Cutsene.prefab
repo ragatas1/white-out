@@ -123,6 +123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: -10
-  Deceleration: -9
+  Deceleration: -2
   deadZone: -117.4
-  Event: 15
+  timer2: {fileID: 0}

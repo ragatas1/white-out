@@ -8,21 +8,16 @@ public class RoadMovement : MonoBehaviour
     public float Deceleration = -2;
     public float deadZone = -18.35f;
 
-    private bool timer = true;
+    public Timer2 timer2;
 
-    public float Event = 15;
-
-
+    private void Start()
+    {
+        timer2 = GameObject.FindGameObjectWithTag("Logic").GetComponent<Timer2>();
+    }
     // Update is called once per frame
     void Update()
     {
-        Event -= Time.deltaTime;
-        if (Event <= 0)
-        {
-            timer = false;
-        }
-
-        if (timer == true)
+        if (timer2.timer == true)
         {
             transform.position = transform.position + (Vector3.right * moveSpeed) * Time.deltaTime;
         }
@@ -30,6 +25,11 @@ public class RoadMovement : MonoBehaviour
         {
             moveSpeed = moveSpeed - Deceleration * Time.deltaTime;
             transform.position = transform.position + (Vector3.right * moveSpeed) * Time.deltaTime;
+        }
+
+        if (moveSpeed > 0)
+        {
+            moveSpeed = 0;
         }
 
         if (transform.position.x < deadZone)

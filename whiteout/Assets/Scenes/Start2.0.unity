@@ -1125,7 +1125,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 252.98364, y: 335.77203}
+  m_AnchoredPosition: {x: 167, y: 285}
   m_SizeDelta: {x: 760.4714, y: 73.7073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &292517417
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279176979
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1233,6 +1233,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1291163559}
     m_Modifications:
+    - target: {fileID: -100912117952715698, guid: 1687e2e91412ebf44854841064d4a182, type: 3}
+      propertyPath: timer2
+      value: 
+      objectReference: {fileID: 1102354975}
     - target: {fileID: 1000011147454354, guid: 1687e2e91412ebf44854841064d4a182, type: 3}
       propertyPath: m_Name
       value: Cutsene (26)
@@ -2936,9 +2940,10 @@ GameObject:
   - component: {fileID: 1102354972}
   - component: {fileID: 1102354973}
   - component: {fileID: 1102354974}
+  - component: {fileID: 1102354975}
   m_Layer: 0
   m_Name: Logick
-  m_TagString: Untagged
+  m_TagString: Logic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2986,6 +2991,20 @@ MonoBehaviour:
   Image: {fileID: 34608494}
   subtitleTextMesh: {fileID: 292517417}
   text: {fileID: 1228786575}
+--- !u!114 &1102354975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102354970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b9f23a81ea2884ba59b7f0eba9909b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 1
+  Event: 14
 --- !u!1 &1115162246
 GameObject:
   m_ObjectHideFlags: 0
@@ -3545,7 +3564,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279176979
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -3629,7 +3648,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 252.98361, y: 334.59265}
+  m_AnchoredPosition: {x: 166.99997, y: 283.82062}
   m_SizeDelta: {x: 760.4714, y: 73.7073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1234945193
@@ -4439,7 +4458,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709461824}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
